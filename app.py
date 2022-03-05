@@ -41,7 +41,7 @@ def Front():
 #         db.session.commit()
 #     return redirect("/")
 
-
+ 
 # @app.route("/delete/<int:sno>")
 # def delete(sno):
 #     todo = Todo.query.filter_by(sno=sno).first()
