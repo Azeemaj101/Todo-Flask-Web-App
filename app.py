@@ -1,6 +1,7 @@
-from flask import Flask, render_template, request, redirect
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
+from flask import Flask
+# from flask import Flask, render_template, request, redirect
+# from flask_sqlalchemy import SQLAlchemy
+# from datetime import datetime
 app = Flask(__name__)
 
 # app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////Projects/Web Projects/Web-Projects/Flask/todo/todo.db"
