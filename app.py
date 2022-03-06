@@ -1,4 +1,3 @@
-from distutils.log import debug
 from flask import Flask
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
