@@ -1,3 +1,4 @@
+from distutils.log import debug
 from flask import Flask
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
@@ -47,4 +48,4 @@ def delete(sno):
     return redirect("/")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True,port=8000)
